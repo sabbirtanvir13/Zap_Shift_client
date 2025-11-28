@@ -8,7 +8,7 @@ const HowitWorks = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 
-                {/* 1 */}
+            
                 <div className="bg-white rounded-2xl p-6 flex flex-col items-center text-center shadow">
                     <img src="https://i.ibb.co/xPG1R5r/download-6.png" alt="" className="w-14 h-14 mb-4" />
                     <h5 className="text-xl font-semibold mb-2">Booking Pick & Drop</h5>
@@ -17,7 +17,7 @@ const HowitWorks = () => {
                     </p>
                 </div>
 
-                {/* 2 */}
+         
                 <div className="bg-white rounded-2xl p-6 flex flex-col items-center text-center shadow">
                     <img src="https://cdn-icons-png.flaticon.com/512/1019/1019607.png" alt="" className="w-14 h-14 mb-4" />
                     <h5 className="text-xl font-semibold mb-2">Cash On Delivery</h5>
@@ -26,7 +26,7 @@ const HowitWorks = () => {
                     </p>
                 </div>
 
-                {/* 3 */}
+          
                 <div className="bg-white rounded-2xl p-6 flex flex-col items-center text-center shadow">
                     <img src="https://cdn-icons-png.flaticon.com/512/7282/7282807.png" alt="" className="w-14 h-14 mb-4" />
                     <h5 className="text-xl font-semibold mb-2">Delivery Hub</h5>
@@ -35,7 +35,7 @@ const HowitWorks = () => {
                     </p>
                 </div>
 
-                {/* 4 */}
+           
                 <div className="bg-white rounded-2xl p-6 flex flex-col items-center text-center shadow">
                     <img src="https://cdn-icons-png.flaticon.com/512/2830/2830532.png" alt="" className="w-14 h-14 mb-4" />
                     <h5 className="text-xl font-semibold mb-2">Booking SME & Corporate</h5>
