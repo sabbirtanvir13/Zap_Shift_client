@@ -2,16 +2,19 @@ import React, { use } from 'react';
 import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ReviewScard from './ReviewScard';
-
+import group_5 from '../../../assets/Group_5.png'
 const Reviews = ({ ReviewsPromise }) => {
     const reviews = use(ReviewsPromise)
     console.log(reviews)
     return (
         <div className='my-24'>
             <div className='text-center mb-24'>
-                <h3 className="text-3xl text-center font-bold my-8">Reviews</h3>
+
+             <img className="mx-auto" src={group_5} alt="" />
+
+                <h3 className="text-3xl text-center font-bold my-8">What our customers are sayings</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit veritatis labore quae incidunt fuga eaque pariatur expedita, architecto blanditiis sed excepturi facilis reiciendis optio iusto, eos alias rem eveniet voluptate.</p>
+                    Enhance posture, mobility, and well-being effortlessly with Posture Pro. Achieve proper alignment, reduce <br /> pain, and strengthen your body with ease!</p>
             </div>
             <Swiper
                 loop={true}
